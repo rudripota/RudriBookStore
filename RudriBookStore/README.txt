@@ -119,3 +119,5 @@ Create the migrations (using code-first, where changes are “pushed” to the d
 Use the NuGet Package Manager Console to add the migration (with a meaningful name).
 Note what happens if the wrong default project is selected.
 Change to the correct default project (.DataAccess) and run again.
+
+Updated database
