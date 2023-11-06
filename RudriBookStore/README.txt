@@ -121,3 +121,12 @@ Note what happens if the wrong default project is selected.
 Change to the correct default project (.DataAccess) and run again.
 
 Updated database
+
+
+Added migartion for category
+
+updated database
+
+created two folder in .dataaccess
+
+Created teo files
