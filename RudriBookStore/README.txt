@@ -54,3 +54,8 @@ checked out the third party tools
 
 1804
 added code for css and js in _layout.cshtml file
+
+1823
+editted the code and made sure it was complete and added it in
+the dropdown menu code was added
+it works!
