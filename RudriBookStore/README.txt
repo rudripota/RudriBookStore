@@ -59,3 +59,57 @@ added code for css and js in _layout.cshtml file
 editted the code and made sure it was complete and added it in
 the dropdown menu code was added
 it works!
+
+1828
+started 1.4
+added three new projects
+went to the solution explorer
+added new class libraries
+version 3.1
+
+1841
+added the data folder to data access and deleted the original
+added some packages from nuget package manager
+deleted migrations folder
+
+1848
+made the remaining changes
+Modified the namespace to reflect the project
+Deleted default Class1.cs file in all projects
+Built the project
+
+1855
+MoveD THE Models in to RudrisBooks.Models 
+deleted the original
+Modified Views > Shared >  Error.cshtml
+Renamed Models folder to ViewModels
+Change the ErrorViewModels.cs namespace .Models.ViewModels
+Build Project
+
+1905
+Install NuGet package:
+Identity.EntityFrameworkCore
+Modify the namespace to reflect the project
+Delete default Class1.cs file in all projects
+Build the project
+
+
+1915
+Added references to projects
+name model folder to View Models
+To solve error added using statements
+change startup file
+
+1916
+in the utility project, create a static details class called SD.cs
+modified the properties of the class
+add project reference to the main project
+copied _ViewImport and _ViewStart to Customer Area
+modified the _ViewStart.cshtml
+
+1741
+rebiult the entire project
+made a new github repo
+redid all the steps
+checked it everything works
+it worked
