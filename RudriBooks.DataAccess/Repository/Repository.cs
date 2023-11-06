@@ -1,5 +1,4 @@
-﻿
-using RudriBookStore.DataAccess.Data;
+﻿using RudriBookStore.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +7,7 @@ using System.Linq.Expressions;
 using System.Text;
 using RudriBooks.DataAccess.Repository.iRepository;
 
-namespace AndrewsBooks.DataAccess.Repository
+namespace RudriBooks.DataAccess.Repository
 {
     // Implements all the methods of the IRepository
     public class Repository<T> : IRepository<T> where T : class

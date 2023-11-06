@@ -114,19 +114,43 @@ redid all the steps
 checked it everything works
 it worked
 
-Create the migrations (using code-first, where changes are “pushed” to the database), modify the database name and save.
+1803
+Reviewed appsettings.json
+Created the migrations 
+usied code-first, where changes are “pushed” to the database
+modified the database name and saved
+Used the NuGet Package Manager Console to add the migration (with a meaningful name).
 
-Use the NuGet Package Manager Console to add the migration (with a meaningful name).
-Note what happens if the wrong default project is selected.
-Change to the correct default project (.DataAccess) and run again.
+1813
+Changed to the correct default project (.DataAccess)
+Ran the program again
+Added the new migration file named: AddDefaultIdentityMigration
+Created the migrations
+modified the database name
+everythng works
 
+1822
+Use the NuGet Package Manager Console to add the migration
+Note what happens if the wrong default project is selected
+Change to the correct default project (.DataAccess) and run again
 Updated database
 
+1828
+Reviewed the file for the SQL-like syntax, statements, columns and primary key constraints
+Note tables related the ASP.NET Identity
+Once the migration is complete, the database needs to be updated
+In the PM console, update the database now
+Review the updated database in the SQL Server Object Explorer.
+Check for errors, run the application
 
+1833
 Added migartion for category
-
 updated database
-
+Added a new folder named it ‘Repository’ and added an IRepository folder inside it
+Added a new item of type interface to the folder and named it IRepository.cs 
+Modified it so it can be used on the Category class to do all the CRUD operations
+Updated most of the using statements
 created two folder in .dataaccess
+Created two files
 
-Created teo files
+did stuff
