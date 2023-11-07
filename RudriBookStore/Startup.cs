@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RudriBooks.DataAccess.Repository;
+using RudriBooks.DataAccess.Repository.iRepository;
 using RudriBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -31,6 +33,8 @@ namespace RudriBookStore
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
