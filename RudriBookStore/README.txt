@@ -12,8 +12,9 @@ added readme.md
 1523
 completed part 1.0
 starting part 1.1
+went for a coffee
 
-1528
+1530
 observed and learnt pt 1.1
 starting pt 1.2
 randomly remembered that I had to try registering and logging in
@@ -153,12 +154,53 @@ Updated most of the using statements
 created two folder in .dataaccess
 Created two files
 
-did stuff
+1847
+implemented a stored procedure repository and map multiple repositories in a Unit of Work
+added a new interface in the IRepository folder - ISP_Call.cs – that extends IDisposable
+Included the methods shown
+installed the NuGet package for Dapper
+implemented this with a new class in the Repository folder
 
-made files isp call
+1900
+Added a new interface (IUnitOfWork) to the IRepository folder and updated the code
+implemented this inside the UnitOfWork
+Added a class
+Modified the code
+Made it accessible by the project
+registered it Startup.cs in the ConfigureServices method
+added using statements
 
-everything works
+1919
+Added a new folder in the Areas/View with the same name as the Controller
+Added a new ‘Index’ view to the folder
+modifed the the generic HTML code from the Category Index View.txt file found in the Assignment 2 - Files folder 
+application works
+In _Layout.cshtml, moved the ‘Category’ link to the Content Management drop-down
+Add the IAction result to the controller and add a View (as we did w/ Index)
+Copied and added the html from the Category Upsert View.txt
+Created a partial view for the EDIT | BACK.
+Added the partial view for _CreateAndBackToListButton.cshtml and added the asp-action
+Created another parital view for _EditAndBackToListButton
 
-created thing
+1930
+Modified the Upsert.cshtml
+Added the asp-action to the Index.cshtml page
+added the @title that made the warning go away
+took a break
 
-ya
+2000
+back at it
+created an Upsert POST action method in the CategoryController.cs
+Removed the _db.SaveChanges() method in the CategoryRepository.cs
+moved the _unitOfWork.Save() method with the return RedirectToaction method
+
+2023
+Added the API (Application Programming Interface) call for HTTPDelete in the CategoryController.cs
+Then implement the HTTPDelete with a delete method in category.js to add functionality to the application and call the API
+Add the delete functionality in category.js with including the onclick event to the Delete function
+
+2035
+everything works perfectly
+the project is succesful
+added some data
+saved
