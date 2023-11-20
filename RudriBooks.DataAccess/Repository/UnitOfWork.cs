@@ -7,7 +7,7 @@ using System.Text;
 
 namespace RudriBooks.DataAccess.Repository
 {
-    public class UnitOfWork
+    public class UnitOfWork :IUnitOfWork
     {
         private readonly ApplicationDbContext _db;
 
