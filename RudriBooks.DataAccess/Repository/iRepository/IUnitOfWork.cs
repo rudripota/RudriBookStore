@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RudriBooks.DataAccess.Repository.iRepository;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,7 +11,7 @@ namespace RudriBooks.DataAccess.Repository.IRepository
         ICoverTypeRepository CoverType { get; }
 
         ISP_Call SP_Call { get; }
-
+        IProductRepository Product { get; }
         void Save();
     }
 }

@@ -1,4 +1,5 @@
-﻿using RudriBooks.DataAccess.Repository.IRepository;
+﻿using RudriBooks.DataAccess.Repository.iRepository;
+using RudriBooks.DataAccess.Repository.IRepository;
 using RudriBooks.Models;
 using RudriBookStore.DataAccess.Data;
 using System;
@@ -22,6 +23,7 @@ namespace RudriBooks.DataAccess.Repository
         public ICoverTypeRepository CoverType { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
+        public IProductRepository Product { get; private set; }
 
         public void Dispose()
         {
