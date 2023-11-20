@@ -208,3 +208,8 @@ saved
 services.AddScoped<UnitOfWork, UnitOfWork>(); startup.cs
 added migrations
 20231120205024_AddCoverTypeToDb
+
+
+
+
+product migration file: 20231120231928_addProductToDb
