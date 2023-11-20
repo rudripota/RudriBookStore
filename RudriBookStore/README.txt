@@ -204,3 +204,7 @@ everything works perfectly
 the project is succesful
 added some data
 saved
+
+services.AddScoped<UnitOfWork, UnitOfWork>(); startup.cs
+added migrations
+20231120205024_AddCoverTypeToDb
