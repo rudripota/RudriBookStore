@@ -10,7 +10,7 @@ namespace RudriBooks.Models
         [Key]
         public int Id { get; set; }
 
-        [Display(Name = "Cover Type Name")]
+        [Display(Name = "CoverType Name")]
         [Required]
         [MaxLength(50)]
         public string Name { get; set; }

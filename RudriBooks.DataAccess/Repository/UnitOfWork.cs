@@ -1,4 +1,5 @@
-﻿using RudriBooks.DataAccess.Repository.iRepository;
+﻿using RudriBooks.DataAccess.Repository.IRepository;
+using RudriBooks.Models;
 using RudriBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Text;
 
 namespace RudriBooks.DataAccess.Repository
 {
-    public class UnitOfWork : IUnitOfWork
+    public class UnitOfWork
     {
         private readonly ApplicationDbContext _db;
 
@@ -14,9 +15,11 @@ namespace RudriBooks.DataAccess.Repository
         {
             _db = db;
             Category = new CategoryRepository(_db);
+            CoverType = new CoverTypeRepository(_db);
             SP_Call = new SP_Call(_db);
         }
         public ICategoryRepository Category { get; private set; }
+        public ICoverTypeRepository CoverType { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
 

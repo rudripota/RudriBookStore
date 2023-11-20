@@ -1,7 +1,7 @@
 ﻿using Dapper;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using RudriBooks.DataAccess.Repository.iRepository;
+using RudriBooks.DataAccess.Repository.IRepository;
 using RudriBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;

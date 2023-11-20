@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
-using RudriBooks.DataAccess.Repository.iRepository;
+using RudriBooks.DataAccess.Repository.IRepository;
 
 namespace RudriBooks.DataAccess.Repository
 {

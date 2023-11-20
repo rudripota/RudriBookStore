@@ -1,4 +1,4 @@
-﻿using RudriBooks.DataAccess.Repository.iRepository;
+﻿using RudriBooks.DataAccess.Repository.IRepository;
 using RudriBooks.Models;
 using RudriBookStore.DataAccess.Data;
 using System;

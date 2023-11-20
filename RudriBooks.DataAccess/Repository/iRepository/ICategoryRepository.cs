@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace RudriBooks.DataAccess.Repository.iRepository
+namespace RudriBooks.DataAccess.Repository.IRepository
 {
     public interface ICategoryRepository : IRepository<Category>
     {
