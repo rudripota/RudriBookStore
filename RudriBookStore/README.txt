@@ -213,3 +213,5 @@ added migrations
 
 
 product migration file: 20231120231928_addProductToDb
+
+Validation migration file: 20231120232616_addValidationToProduct
