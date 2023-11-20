@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RudriBooks.DataAccess.Repository.IRepository;
+using RudriBooks.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -7,7 +7,7 @@ using System.Text;
 
 namespace RudriBooks.DataAccess.Repository
 {
-    public class CoverTypeRepository : Repository<CoverTypeRepository>, ICoverTypeRepository
+    public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRepository
     {
         private readonly ApplicationDbContext _db;
         public CoverTypeRepository(ApplicationDbContext db) : base(db)
@@ -24,4 +24,5 @@ namespace RudriBooks.DataAccess.Repository
                 objFromDb.Name = covertype.Name;
             }
         }
+    }
 }
