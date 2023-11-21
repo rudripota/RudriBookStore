@@ -205,13 +205,108 @@ the project is succesful
 added some data
 saved
 
-services.AddScoped<UnitOfWork, UnitOfWork>(); startup.cs
-added migrations
+2023-11-21
+1215
+went back to part 2 of assignment 2 to check and make sure that I am making the new crud correctly
+added covertype as a folder accidentally
+deleted it
+added covertype in model folder
+edited to make sure that there is id and name included
+did not find repo for a while
+added covertype to repo
+instructions unclear, added both files in repo
+
+1233
+edited things 
+shifted them to go in the right folders
+added covertype to unitofwork and iunitofwork
+made sure to make all the classes public
+
+1244
+tried ro add migrations
+the build failed
+made some edits and retried
+it did not work
+
+1256
+realized that I had forgotten to change the category to covertype in unitofwork module
+felt stupid
+still did not work
+took a break
+
+0109
+added Cover Type to NavBar
+messed up a little
+readded it
+added CoverType Controller with all Action Methods
+added Cover Type Index View to use DataTables
+
+0357
+added migrations after multiple trials and erros
+keep note: services.AddScoped<UnitOfWork, UnitOfWork>(); startup.cs
 20231120205024_AddCoverTypeToDb
+the stamp^
 
+0414
+added a new class (Product) in the .Models project
+added the code to build the blueprint of this class 
+made sure it’s public and that any errors are resolved
 
+0427
+added all the code that we had to from slide 6
 
+0437
+Added reference to the new Products piece to the database in the ApplicationDbContext.cs file
+In the PM Console, run the add-migration command for an  ‘addProductToDb’ migration and update-database
+Note the new migration file in the Migrations folder and put this timestamp in the README
+In the SOE review the newly created Products table
+Updated the Product class so Title, ISBN and Author are [Required], create a new migration (addValidationToProduct) and update the database
 
+0445
+Added Product to the Repository
+Added IProductRepository Interface
+Added ProductRepository Class (note modifications to the Update method)
+Added Product to UnitOfWork and IUnitofWork
+Builded and checked for errors,
+Build was successfull and application works fine
+
+0502
+Added Product Controller To the Areas > Admin > Controllers to perform the CRUD operations
+Added the IWebHostEvironment call and its using statement to the Microsoft.AspNetCore.Hosting 
+Created a ViewModel in the Models project to hold the Product object and select list for Category and CoverType
+
+0515
+Modified the ProductVM class so it is public and intalled the Microsoft.AspNetCore.Mvc.ViewFeatures package.
+Modified the ProductController so the IActionResult Upsert calls to the ProductVM view model, include the using statements to the ViewModels folder and Microsoft.AspNetCore.Mvc.Rendering
+Commented out the Upsert post method for now
+Modified the API call to include the Category and CoverType properites
 product migration file: 20231120231928_addProductToDb
 
+
+0528
+Added an Index view
+Copied the Index.cshtml code from Views/Category and modified to the Product List header, Created New Product and added the following properties – Title / ISBN / Price / Author / Category and reference a new product.js file.
+Copy/Pasted the category.js and renamed to product.js 
+Modify the _Layout.cshtml to added a new link to Product.
 Validation migration file: 20231120232616_addValidationToProduct
+
+0535
+Getting an error in the ProductController.cs 
+ohh right, I didn't see the instuctin in slide to press continue in case of error.
+Application works fine after pressing continue.
+Section-2 is completed
+
+0550
+Created an Upsert.cs for Products and modified in Areas > Admin > Views > Product and Added content from Assignment-2 files
+Added a rich textbox to the textarea inside Product with tiny.cloud Crated an account and got a <script> from code snippet using the API key provided, initialize and add a function to validate input and if empty, display a Sweet Alert.
+Runned the application and see what happens when you select ‘Create new Product’.
+
+0605
+Added a new folder and subfolder in wwwroot > images/products
+In the ProductController configure the Product Upsert Post action method.
+Uncommented the method and modify There is no file to update Upsert method assignment 2 files
+Checked for errors, runned the application and test.
+
+0615
+Getting an error.
+Tried to solve it but nothing seems to working
