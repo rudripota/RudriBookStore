@@ -115,4 +115,20 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.tiny.cloud/1/8f6ua9c4l4y1p73p734wd5919aja911snidy9ap9tyh253wy/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'lists',
+            menubar: 'file edit format'
+        });
+
+        function validateinput() {
+            if (document.getElementsById("uploadBox").value = "") {
+                swal("Error", "Please Select an image", "error");
+                return false;
+            }
+            return true;
+        }
+    </script>
 }
