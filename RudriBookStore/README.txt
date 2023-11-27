@@ -310,3 +310,11 @@ Checked for errors, runned the application and test.
 0615
 Getting an error.
 Tried to solve it but nothing seems to working
+
+2023-11-27
+1214
+started theproject
+compared my repo to the provided one
+Updated Product.cs
+Added New fields Price, Price50, Price100 with validations
+Changed Foreign key for CovertypeId
