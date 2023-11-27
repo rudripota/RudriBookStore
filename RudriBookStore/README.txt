@@ -318,3 +318,18 @@ compared my repo to the provided one
 Updated Product.cs
 Added New fields Price, Price50, Price100 with validations
 Changed Foreign key for CovertypeId
+
+1226
+could not solve the error for product previously
+tried adding breakpoints, did not work
+starting to build migration
+
+1231
+used the command: add-migration UpdateProductTable
+made sure that default project in package console manager is dataaccess
+20231127173054_UpdateProductTable
+Updated database
+there are errors
+error 1: Column names in each table must be unique. Column name 'CoverTypeId' in table 'Products' is specified more than once
+error 2: Failed executing DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [Products] ADD [CoverTypeId] int NOT NULL DEFAULT 0;
