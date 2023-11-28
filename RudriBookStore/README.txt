@@ -340,3 +340,10 @@ Navigated to product controller
 Changed category to coverlist in the function
 Read over the thing
 Updated SD.cs in Utility Project
+
+0933
+Updated ProductRepository.cs
+Added 3 lines for the new fields created
+objFromDb.Price = product.Price;
+objFromDb.Price50 = product.Price50;
+objFromDb.Price100 = product.Price100;
