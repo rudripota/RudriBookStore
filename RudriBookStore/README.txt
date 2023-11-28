@@ -383,3 +383,15 @@ tried to run the application
 there are errors!
 the application is not running
 currently having a breakdown
+
+1036
+Updated home controller in hopes that it works
+it does not
+the same error is still showing up
+it says @foreach (var product in Model) is something that is not working in index.cshtml
+decided to let it go for now
+
+1045
+went to google and found non copyrighted images
+added the acotar series
+added images to the folder
