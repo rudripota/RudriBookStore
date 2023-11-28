@@ -367,3 +367,10 @@ Changed this line for the dropdown
 changed product.js in www.root
 edited the Name to name
 so it works
+
+1012
+Navigated to index.cshtml
+Updated it to desired code
+Added Code for retriving product from database and show on the main page
+Updated Startup.cs
+services.AddControllersWithViews().AddRazorRuntimeCompilation(); services.AddRazorPages();
