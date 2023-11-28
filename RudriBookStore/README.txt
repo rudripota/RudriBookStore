@@ -347,3 +347,10 @@ Added 3 lines for the new fields created
 objFromDb.Price = product.Price;
 objFromDb.Price50 = product.Price50;
 objFromDb.Price100 = product.Price100;
+
+0941
+Updated ProductController.cs
+Updated Upsert and Delete API
+exited with some (many) errors
+added curly braces to solve them
+public error remains
