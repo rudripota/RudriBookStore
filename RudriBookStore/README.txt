@@ -411,3 +411,8 @@ still the code does not work
 1146
 compared my index.cshtml file to the github repo provided because that is where the exception is happening
 did not find anything wierd
+
+0214
+stupid error
+edited product controller
+forgot a bracket
