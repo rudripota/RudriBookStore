@@ -374,3 +374,12 @@ Updated it to desired code
 Added Code for retriving product from database and show on the main page
 Updated Startup.cs
 services.AddControllersWithViews().AddRazorRuntimeCompilation(); services.AddRazorPages();
+
+1021
+edited out this code from index.cshtml
+<div style="padding-left:5px;">
+<p style="color:maroon">As low as: <b class="">$@product.Price100.ToString("0.00")</b></p></div>
+tried to run the application
+there are errors!
+the application is not running
+currently having a breakdown
