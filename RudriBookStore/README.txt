@@ -333,3 +333,10 @@ there are errors
 error 1: Column names in each table must be unique. Column name 'CoverTypeId' in table 'Products' is specified more than once
 error 2: Failed executing DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 ALTER TABLE [Products] ADD [CoverTypeId] int NOT NULL DEFAULT 0;
+
+2023-11-28
+0925
+Navigated to product controller
+Changed category to coverlist in the function
+Read over the thing
+Updated SD.cs in Utility Project
