@@ -362,3 +362,8 @@ Added Labels and input fields for new data fields added in Table products
 Price, Price50, Price100
 Changed this line for the dropdown
 @Html.DropDownListFor(m => m.Product.CoverTypeId, Model.CoverTypeList, "-Select a Cover Type",
+
+0957
+changed product.js in www.root
+edited the Name to name
+so it works
