@@ -63,32 +63,32 @@
                 </div>
             </div>
             <div class="form-group row">
-                <div class="col-4">
-                    <label asp-for="Product.Price"></label>
-                </div>
-                <div class="col-8">
-                    <input asp-for="Product.Price" class="form-control" />
-                    <span asp-validation-for="Product.Price" class="text-danger"></span>
-                </div>
+            <div class="col-4">
+                <label asp-for="Product.Price"></label>
             </div>
-            <div class="form-group row">
-                <div class="col-4">
-                    <label asp-for="Product.Price50"></label>
-                </div>
-                <div class="col-8">
-                    <input asp-for="Product.Price50" class="form-control" />
-                    <span asp-validation-for="Product.Price50" class="text-danger"></span>
-                </div>
+            <div class="col-8">
+                <input asp-for="Product.Price" class="form-control" />
+                <span asp-validation-for="Product.Price" class="text-danger"></span>
             </div>
-            <div class="form-group row">
-                <div class="col-4">
-                    <label asp-for="Product.Price100"></label>
-                </div>
-                <div class="col-8">
-                    <input asp-for="Product.Price100" class="form-control" />
-                    <span asp-validation-for="Product.Price100" class="text-danger"></span>
-                </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="Product.Price50"></label>
             </div>
+            <div class="col-8">
+                <input asp-for="Product.Price50" class="form-control" />
+                <span asp-validation-for="Product.Price50" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="Product.Price100"></label>
+            </div>
+            <div class="col-8">
+                <input asp-for="Product.Price100" class="form-control" />
+                <span asp-validation-for="Product.Price100" class="text-danger"></span>
+            </div>
+        </div>
             <div class="form-group row">
                 <div class="col-4">
                     Category
@@ -148,7 +148,7 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
-    <script src="https://cdn.tiny.cloud/1/8f6ua9c4l4y1p73p734wd5919aja911snidy9ap9tyh253wy/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.tiny.cloud/1/n94ifuzvl80pchikopiwgz2esrw8n28dwcywvpejlqrregfp/tinymce/5/tinymce.min.js"></script>
     <script>
         tinymce.init({
             selector: 'textarea',
@@ -156,9 +156,9 @@
             menubar: 'file edit format'
         });
 
-        function validateinput() {
-            if (document.getElementsById("uploadBox").value = "") {
-                swal("Error", "Please Select an image", "error");
+        function validateInput() {
+            if (document.getElementById("uploadBox").value == "") {
+                swal("Error", "Please select an image", "error");
                 return false;
             }
             return true;

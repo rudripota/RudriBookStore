@@ -395,3 +395,19 @@ decided to let it go for now
 went to google and found non copyrighted images
 added the acotar series
 added images to the folder
+
+1059
+made some changes in startup.cs and index.cshtml according to the repo
+the errors are still happening
+when I tried updating the database this happened:
+Update-Database
+Build started...
+Build failed.
+
+1113
+Removed Strike from Home page
+still the code does not work
+
+1146
+compared my index.cshtml file to the github repo provided because that is where the exception is happening
+did not find anything wierd

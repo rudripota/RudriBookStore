@@ -16,7 +16,7 @@ namespace RudriBookStore.Area.Customer.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IUnitOfWork _unifOfWork;
+        private readonly IUnitOfWork _unitOfWork;
 
         public HomeController(ILogger<HomeController> logger, IUnitOfWork unifOfWork)
         {
@@ -25,7 +25,7 @@ namespace RudriBookStore.Area.Customer.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<Product> productList = _unifOfWork.Product.GetAll(includeProperties: "Category,CoverType");
+            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
             return View(productList);
         }
 
