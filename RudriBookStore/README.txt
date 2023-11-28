@@ -354,3 +354,11 @@ Updated Upsert and Delete API
 exited with some (many) errors
 added curly braces to solve them
 public error remains
+
+0954
+Navigated to Admin/Views/Product/Upsert.cshtml
+Updated it
+Added Labels and input fields for new data fields added in Table products
+Price, Price50, Price100
+Changed this line for the dropdown
+@Html.DropDownListFor(m => m.Product.CoverTypeId, Model.CoverTypeList, "-Select a Cover Type",
