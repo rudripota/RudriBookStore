@@ -21,6 +21,7 @@ namespace RudriBookStore.Area.Customer.Controllers
         public HomeController(ILogger<HomeController> logger, IUnitOfWork unifOfWork)
         {
             _logger = logger;
+            _unitOfWork = unifOfWork;
         }
 
         public IActionResult Index()
