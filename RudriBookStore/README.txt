@@ -416,3 +416,26 @@ did not find anything wierd
 stupid error
 edited product controller
 forgot a bracket
+
+2023-12-4
+1202
+edited out the things that were not needed
+tried updating the database
+removed the migration that was not needed
+found out that the database is working
+it is connected to view
+the problem must be in model
+
+1237
+turns out that was a stupid mistake
+tried making everything work 
+does not work
+
+0837
+updated database
+the update database error went away
+the project still does not work.
+
+2023-12-05
+0300
+made some final edits

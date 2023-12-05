@@ -1,1 +1,1 @@
-﻿Description of the project:
+﻿Description of the project: This project is dedicated to building a book store front. It displays different type of book details along with the ISBN number.
