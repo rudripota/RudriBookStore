@@ -439,3 +439,8 @@ the project still does not work.
 2023-12-05
 0300
 made some final edits
+
+0320
+corrected some spelling mistakes
+the product table works because database gets updated and the images appear
+hoped for the best
