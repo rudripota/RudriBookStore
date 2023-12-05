@@ -20,8 +20,7 @@ namespace RudriBooks.Models
     [Required]
     [Range(1, 10000)]
     public double ListPrice { get; set; }
-        [Required]
-        [Range(1, 10000)]
+
         public string ImageUrl { get; set; }
         [Required]
         public int CategoryId { get; set; } // foreign key reference

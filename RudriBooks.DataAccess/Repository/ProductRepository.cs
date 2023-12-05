@@ -25,6 +25,8 @@ namespace RudriBooks.DataAccess.Repository
             {
                 if (product.ImageUrl != null)
                 {
+                    objFromDb.ImageUrl = product.ImageUrl;
+                }
                     objFromDb.Title = product.Title;
                     objFromDb.Description = product.Description;
                     objFromDb.ISBN = product.ISBN;
@@ -36,4 +38,4 @@ namespace RudriBooks.DataAccess.Repository
             }
         }
     }
-}
+
